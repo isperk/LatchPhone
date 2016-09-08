@@ -1,2 +1,2 @@
 # LatchPhone
-Latch your phone remote.
+Latch your phone remotely.
