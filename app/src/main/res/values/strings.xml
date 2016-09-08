@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Latch My Phone</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="admin_receiver_status">LatchWimp</string>
+    <string name="admin_receiver_status_enabled">LatchWimp</string>
+    <string name="admin_receiver_status_disable_warning">LatchWimp</string>
+    <string name="admin_receiver_status_disabled">LatchWimp</string>
+    <string name="admin_receiver_status_pw_changed">LatchWimp</string>
+    <string name="sample_device_admin_description">LatchWimp</string>
+    <string name="activity_sample_device_admin">activity_sample_device_admin</string>
+
+</resources>

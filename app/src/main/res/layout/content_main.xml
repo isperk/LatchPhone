@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="elevenpath.latchmyphone.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeService">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Start Service"
+        android:textSize="20dp"
+        android:id="@+id/buttonStart"
+        android:onClick="startService"
+        android:background="@drawable/button_round"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Stop Service"
+        android:textSize="20dp"
+        android:id="@+id/buttonStop"
+        android:onClick="stopService"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_round"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/buttonStart"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Service is stoped."
+        android:textColor="@android:color/white"
+        android:textSize="28dp"
+        android:id="@+id/textViewMessage"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/buttonStop"
+        android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content_setting">
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>
